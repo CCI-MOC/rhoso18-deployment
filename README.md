@@ -20,7 +20,7 @@ We assume the deployment process can be run from the bastion host used by the [O
 
 | Description         | Machine type | Count |
 | ------------------- | ------------ | ----- |
-| Control plane nodes | fc430        | 3     |
+| Control plane nodes | fc830        | 3     |
 
 RHOSO18 requires a running OpenShift 4.18 cluster.
 
@@ -28,6 +28,6 @@ RHOSO18 requires a running OpenShift 4.18 cluster.
 
 | Description    | Machine type | Count |
 | -------------- | ------------ | ----- |
-| Networker node | fc430        | 2     |
+| Networker node | fc830        | 2     |
 
 The recommended RHOSO18 deployment involves two dedicated [networker nodes](https://docs.redhat.com/en/documentation/red_hat_openstack_services_on_openshift/18.0/html-single/configuring_networking_services/index#configure-networker-nodes_rhoso-cfgnet).
